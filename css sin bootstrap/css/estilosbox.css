@@ -7,7 +7,7 @@ body { background-image:url(../imagenes/fondo.jpg);
     margin-left: 400px;
 background-color: aqua;}
 p.verde{background-color:salmon;
-color: aquamarine;
+color: aquamarine;border: 10px;
 }
 #segundo{margin-left: 500px;
     width: 100px;
@@ -25,3 +25,22 @@ color: white;}
     color: aliceblue;
     background-size: 30%;
     }
+    div.dashed{margin:2px ;border-style: dashed;}
+    div.doted{margin:2px ;border-style: dotted;}
+    div.double{margin:2px ;border-style: double;}
+    div.groove{margin:2px ;border-style: groove;}
+    div.hidden{margin:2px ;border-style: hidden;}
+    div.inherit{margin:2px ;border-style: inherit;}
+    div.initial{margin:2px ;border-style: initial;}
+    div.inset{margin:2px ;border-style: inset;}
+    div.none{margin:2px ;border-style: none;}
+    div.outset{margin:2px ;border-style: outset;}
+    div.ridge{margin:2px ;border-style: ridge;}
+    div.solid{margin:2px ;border-style: solid;}
+    div.unset{margin:2px ;border-style: unset;}
+    div.variado{margin:2px;border-width: 3px 9px 6px 15px;
+        border-style:  dashed double groove solid;
+        border-color:  black green maroon royalblue;
+    border-radius: 15px 0px;}
+    div.enuno{margin: 2px;border:5px groove yellow;
+    border-radius: 15px;}
